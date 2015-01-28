@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Using npm, bootstrap-sass and gulp-ruby-sass 1.0.0-alpha.2"
+title:  "Using npm, bootstrap-sass and gulp-ruby-sass 1.0.0-alpha"
 date:   2015-01-28 16:30:00
-categories: webdev
+categories: 
 ---
 I'm using npm as my only package manager now, as all the packages I need from Bower are available on [npm](http://npmjs.com), so I don't see why I should use both.
 
