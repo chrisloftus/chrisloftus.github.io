@@ -100,7 +100,7 @@ gulp.task('sass', function() {
 		]
 	})
 		.on('error', function (err) {
-                console.log('Error!', err.message);
+			console.log('Error!', err.message);
         })
         .pipe( autoprefix('last 2 versions') )
         .pipe( gulp.dest('./public/stylesheets') )
