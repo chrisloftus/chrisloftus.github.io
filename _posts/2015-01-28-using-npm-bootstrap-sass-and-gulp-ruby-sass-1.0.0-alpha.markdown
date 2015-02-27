@@ -75,7 +75,7 @@ After saving this and trying to compile my Sass, gulp was spitting out this erro
 
 ## The Solution
 
-It turns out that in gulp-ruby-sass 1.0.0 the syntax has changed a little. [As sublty noted](https://github.com/sindresorhus/gulp-ruby-sass/tree/rw/1.0#note-pre-10-versions-are-no-longer-supportedplease-try-100-alpha). 
+It turns out that in gulp-ruby-sass 1.0.0 the syntax has changed a little. [As subtly noted](https://github.com/sindresorhus/gulp-ruby-sass/tree/rw/1.0#note-pre-10-versions-are-no-longer-supportedplease-try-100-alpha). 
 
 Now when creating a Sass gulp task, instead of:
 
