@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "How To Disable Xdebug with PHP 7 CLI Ubuntu"
+title:  How To Disable Xdebug with PHP 7 CLI Ubuntu
 date:   2016-05-05 22:00:00
 categories: tooling
 ---
-If you are running PHP 7 with xdebug, or like me, use Laravel Homestead, chances
-are you might have seen this error message:
+If you are running PHP 7 with Xdebug, or like me, use Laravel Homestead, you
+might have seen this error message:
 
 > You are running composer with xdebug enabled. This has a major impact on
 runtime performance. See https://getcomposer.org/xdebug

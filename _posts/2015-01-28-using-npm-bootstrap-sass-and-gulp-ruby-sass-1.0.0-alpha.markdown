@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using npm, bootstrap-sass and gulp-ruby-sass 1.0.0-alpha"
+title:  Using npm, bootstrap-sass and gulp-ruby-sass 1.0.0-alpha
 date:   2015-01-28 16:30:00
 categories: tooling
 ---
@@ -22,11 +22,11 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync'),
     reload = browserSync.reload
 ;
- 
+
 var config = {
     sassPath: './resources/sass'
 };
- 
+
 gulp.task('sass', function() {
     return gulp.src(config.sassPath + '/style.scss')
         .pipe(sass({
@@ -62,9 +62,8 @@ gulp.task('watch', function() {
     gulp.watch(config.sassPath + '/**/*.scss', ['sass']);
     gulp.watch('./public/*.html', ['html', reload]);
 });
- 
-gulp.task('default', ['sass', 'browser-sync', 'watch']);
 
+gulp.task('default', ['sass', 'browser-sync', 'watch']);
 ```
 
 ## The Problem
