@@ -8,7 +8,7 @@ relative_permalinks: false
 title:               'Chris Loftus'
 tagline:             'Code and stuff'
 description:         ''
-url:                 http://chrisloftus.github.io
+url:                 ''
 baseurl:             http://chrisloftus.github.io
 paginate:            5
 
@@ -20,3 +20,6 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+gems:
+  - jekyll-seo-tag
