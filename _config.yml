@@ -9,7 +9,7 @@ title:               'Chris Loftus'
 tagline:             'Code and stuff'
 description:         ''
 url:                 ''
-baseurl:             http://chrisloftus.github.io
+baseurl:             https://chrisloftus.github.io
 paginate:            5
 
 # About/contact
