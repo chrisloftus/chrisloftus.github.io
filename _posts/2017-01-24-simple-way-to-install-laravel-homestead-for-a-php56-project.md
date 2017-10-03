@@ -35,7 +35,19 @@ on your host machine. Now boot the vagrant box:
 This will download the v0.3.3 box and boot it.
 
 *You may see a warning message about using a password to execute a MySQL query
-on the command line.* Ignore this and run:
+on the command line.* This might be because the MySQL password has expired.
+
+SSH into the box and login to MySQL:
+
+```
+vagrant ssh
+mysql -u homestead -p
+secret
+SET PASSWORD = 'secret';
+exit
+```
+
+Then to complete the provisioning:
 
 `vagrant provision`
 
