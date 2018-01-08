@@ -3,6 +3,7 @@ layout: post
 title:  How To Disable Xdebug with PHP 7 CLI Ubuntu
 date:   2016-05-05 22:00:00
 categories: tooling
+medium: https://medium.com/@chrisloftus/how-to-disable-xdebug-with-php-7-cli-ubuntu-fd42360bafb7
 ---
 If you are running PHP 7 with Xdebug, or like me, use Laravel Homestead, you
 might have seen this error message:
