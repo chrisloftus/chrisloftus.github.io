@@ -3,7 +3,6 @@ layout: post
 title:  How To Force Remember Me Login In Your Laravel 5 Application
 date:   2016-05-08 23:00:00
 categories: laravel
-medium: https://chrisloftus.github.io//laravel/2016/05/08/how-to-force-remember-me-login-laravel-5/
 ---
 Because no one likes being logged out, or having to check "Remember Me" when
 they login.
