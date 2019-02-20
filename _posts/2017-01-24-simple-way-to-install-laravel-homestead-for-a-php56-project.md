@@ -3,6 +3,7 @@ layout: post
 title:  Simple Way To Install Laravel Homestead For A PHP 5.6 Project
 date:   2017-01-24 22:00:00
 categories: laravel
+image: /public/img/laravel.png
 ---
 If you're running a recent version of Laravel Homestead (PHP 7) and you need to
 install an old Laravel app, in my case 5.0. You'll run into difficulties as [5.0
