@@ -11,6 +11,7 @@ description:         ''
 url:                 ''
 baseurl:             https://chrisloftus.github.io
 paginate:            5
+twitter_username:    chrisloftus
 
 # About/contact
 author:
