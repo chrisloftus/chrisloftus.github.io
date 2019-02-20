@@ -14,9 +14,9 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {% if page.image %}
-      <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}"
-        title="{{ page.title }}" style="margin: 0 auto 20px;">
+    {% if post.image %}
+      <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}"
+        title="{{ post.title }}" style="margin: 0 auto 20px;">
     {% endif %}
 
     {{ post.content }}
