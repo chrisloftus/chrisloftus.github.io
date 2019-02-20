@@ -8,7 +8,7 @@ relative_permalinks: false
 title:               'Chris Loftus'
 tagline:             'Code and stuff'
 description:         ''
-url:                 ''
+url:                 https://chrisloftus.github.io
 baseurl:             https://chrisloftus.github.io
 paginate:            5
 twitter_username:    chrisloftus
